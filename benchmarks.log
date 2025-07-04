@@ -1,0 +1,40 @@
+
+Benchmarks complete for /data/jupyter/dungnd/IT3320E-DeepLearning/capstone_prj/runs/detect/train/weights/best.pt on /data/jupyter/dungnd/IT3320E-DeepLearning/capstone_prj/FGVD_YOLOv8/fgvd.yaml at imgsz=640 (513.26s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+                   Format Status❔  Size (MB) metrics/mAP50-95(B) Inference time (ms/im)     FPS
+0                 PyTorch       ✅        5.9              0.7006                   9.23   108.3
+1             TorchScript       ✅       11.9              0.6937                   4.62  216.26
+2                    ONNX       ✅       11.7              0.6937                   7.33  136.37
+3                OpenVINO       ❌        0.0                   -                      -       -
+4                TensorRT       ✅       15.6              0.6937                    3.7  269.92
+5                  CoreML       ❌        0.0                   -                      -       -
+6   TensorFlow SavedModel       ❎       29.4                   -                      -       -
+7     TensorFlow GraphDef       ❎       11.8                   -                      -       -
+8         TensorFlow Lite       ❌        0.0                   -                      -       -
+9     TensorFlow Edge TPU       ❌        0.0                   -                      -       -
+10          TensorFlow.js       ❌        0.0                   -                      -       -
+11           PaddlePaddle       ❌        0.0                   -                      -       -
+12                    MNN       ✅       11.6              0.6937                  55.23   18.11
+13                   NCNN       ✅       11.6              0.6937                  270.5     3.7
+14                    IMX       ❌        0.0                   -                      -       -
+15                   RKNN       ❌        0.0                   -                      -       -
+
+Benchmarks complete for /data/jupyter/dungnd/IT3320E-DeepLearning/capstone_prj/runs/detect/train2/weights/best.pt on /data/jupyter/dungnd/IT3320E-DeepLearning/capstone_prj/FGVD_YOLOv11/fgvd.yaml at imgsz=640 (1981.85s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+                   Format Status❔  Size (MB) metrics/mAP50-95(B) Inference time (ms/im)     FPS
+0                 PyTorch       ✅        5.2              0.7019                  13.91    71.9
+1             TorchScript       ✅       10.4              0.6933                   6.57   152.1
+2                    ONNX       ✅       10.1              0.6933                   8.15  122.64
+3                OpenVINO       ❌        0.0                   -                      -       -
+4                TensorRT       ✅       12.8              0.6933                   4.34  230.44
+5                  CoreML       ❌        0.0                   -                      -       -
+6   TensorFlow SavedModel       ❌        0.0                   -                      -       -
+7     TensorFlow GraphDef       ❌        0.0                   -                      -       -
+8         TensorFlow Lite       ❌        0.0                   -                      -       -
+9     TensorFlow Edge TPU       ❌        0.0                   -                      -       -
+10          TensorFlow.js       ❌        0.0                   -                      -       -
+11           PaddlePaddle       ❌        0.0                   -                      -       -
+12                    MNN       ✅       10.0              0.6932                  63.81   15.67
+13                   NCNN       ✅       10.0              0.6933                2114.69    0.47
+14                    IMX       ❌        0.0                   -                      -       -
+15                   RKNN       ❌        0.0                   -                      -       -
